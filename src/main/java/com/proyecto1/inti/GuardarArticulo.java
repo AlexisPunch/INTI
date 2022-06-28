@@ -180,7 +180,7 @@ public class GuardarArticulo extends javax.swing.JFrame {
              con.conectar();
              //aqui
              
-         
+         System.out.println("PRUEBA DE ACTUALIZACION");
              
               
             
