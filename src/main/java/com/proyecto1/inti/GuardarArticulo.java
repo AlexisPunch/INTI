@@ -182,8 +182,7 @@ public class GuardarArticulo extends javax.swing.JFrame {
              
          
              
-        asd
-             
+              
             
             
             if ( nombre.isEmpty() || precio.isEmpty() || esp.isEmpty() || medida.isEmpty()) {
