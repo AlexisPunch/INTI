@@ -194,7 +194,7 @@ public class GuardarArticulo extends javax.swing.JFrame {
         try {
          
      
-             ResultSet as= st.("SELECT max(cve_articulo) from cat_articulos");
+             ResultSet as= null;// st.("SELECT max(cve_articulo) from cat_articulos");
                 while (as.next()) {
                                     
             
@@ -217,7 +217,7 @@ public class GuardarArticulo extends javax.swing.JFrame {
         
          String insert = "INSERT INTO CAT_ARTICULOS (cve_articulo,nombre,estatus,precio_unitario,especificaciones,cve_umedida) VALUES ("+Increment+",'"+nombre+"',1,"+precio+",'"+esp+"','"+medida+"')";
               
-         int rs = st.executeUpdate(insert);
+         int rs =1;// st.executeUpdate(insert);
                 JOptionPane.showInternalMessageDialog(null, "Guardado correctamente");
                   txtClave.setText(""+Increment); 
         txtEsp.setEditable(false);
