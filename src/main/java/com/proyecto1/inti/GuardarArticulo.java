@@ -182,7 +182,7 @@ public class GuardarArticulo extends javax.swing.JFrame {
              
          System.out.println("PRUEBA DE ACTUALIZACION");
              
-              
+              System.out.println("PRUEBA3");
             
             
             if ( nombre.isEmpty() || precio.isEmpty() || esp.isEmpty() || medida.isEmpty()) {
